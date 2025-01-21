@@ -1,2 +1,58 @@
-node_modules
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
 .env
+.env.local
+.env.*.local
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.log
+
+# Compiled code
+*.class
+*.pyc
+*.pyo
+*.o
+*.obj
+
+# Dependency directories
+vendor/
+.venv/
+
+# Generated files
+*.bak
+*.out
+*.exe
+*.dll
+*.so
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
