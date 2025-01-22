@@ -11,20 +11,20 @@ This is a Node.js and TypeScript project with PostgreSQL, Redis, and MinIO.
 
 1. Clone the repository:
    
-   -git clone https://github.com/madhavgupta3205/TodoListAPI.git
-   -cd TodoListAPI
+   - git clone https://github.com/madhavgupta3205/TodoListAPI.git
+   - cd TodoListAPI
    
 2. Create .env file in root directory with following credentials:
 
-   POSTGRES_USER=postgres
-   POSTGRES_PASSWORD=postgres
-   POSTGRES_DB=spendsmart_db
-   POSTGRES_HOST=postgres
-   POSTGRES_PORT=5432
-   JWT_SECRET=mySuperSecretJwtKey
+   - POSTGRES_USER=postgres
+   - POSTGRES_PASSWORD=postgres
+   - POSTGRES_DB=spendsmart_db
+   - POSTGRES_HOST=postgres
+   - POSTGRES_PORT=5432
+   - JWT_SECRET=mySuperSecretJwtKey
 
 3. Build and run the Docker containers:
-   -docker-compose up --build -d
+   - docker-compose up --build -d
 
 4. Set up the database using Adminer:
 
@@ -32,11 +32,11 @@ This is a Node.js and TypeScript project with PostgreSQL, Redis, and MinIO.
 
     Log in with the following credentials:
 
-    System: PostgreSQL
-    Server: postgres
-    Username: postgres
-    Password: postgres
-    Database: spendsmart_db
+    - System: PostgreSQL
+    - Server: postgres
+    - Username: postgres
+    - Password: postgres
+    - Database: spendsmart_db
 
 5. Run the following SQL commands to create the necessary tables =>
 
